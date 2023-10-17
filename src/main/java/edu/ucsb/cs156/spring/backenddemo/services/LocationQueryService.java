@@ -18,6 +18,7 @@ public class LocationQueryService {
 
     public static final String ENDPOINT = "";
 
+    // get the information from API
     public String getJSON(String location) throws HttpClientErrorException {
         return "";
     }
