@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-f23/team01-f23-5pm-1
 owner: ucsb-cs156-f23
 repo_name: team01-f23-5pm-1
-pull_requests: [{"author":{"id":"MDQ6VXNlcjc1ODIzOTg5","is_bot":false,"login":"pingyujc","name":""},"headRefName":"Jonathan-Location","number":21,"title":"Added Location Service and Tests","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/pull/21"}]
+pull_requests: [{"author":{"id":"MDQ6VXNlcjg2OTM1MzM0","is_bot":false,"login":"lukewli","name":""},"headRefName":"Luke-JokeService-Controller","number":22,"title":"lli - Implement Joke Controller and Tests","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/pull/22"},{"author":{"id":"MDQ6VXNlcjc1ODIzOTg5","is_bot":false,"login":"pingyujc","name":""},"headRefName":"Jonathan-Location","number":21,"title":"Added Location Service and Tests","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/pull/21"}]
