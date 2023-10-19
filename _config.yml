@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-f23/team01-f23-5pm-1
 owner: ucsb-cs156-f23
 repo_name: team01-f23-5pm-1
-pull_requests: [{"author":{"id":"MDQ6VXNlcjg2OTM1MzM0","is_bot":false,"login":"lukewli","name":""},"headRefName":"Luke-JokeService","number":19,"title":"Add Joke Service and Tests","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/pull/19"},{"author":{"id":"MDQ6VXNlcjcyODkzMDg0","is_bot":false,"login":"haroldmo","name":""},"headRefName":"Harold-ZipCode","number":18,"title":"Add ZipCode Service and Controller","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/pull/18"}]
+pull_requests: [{"author":{"id":"MDQ6VXNlcjcyODkzMDg0","is_bot":false,"login":"haroldmo","name":""},"headRefName":"Harold-ZipCode","number":20,"title":"fixed the ENDPOINT and the rest of the services file and implemented the test file for ZipCode","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/pull/20"},{"author":{"id":"MDQ6VXNlcjg2OTM1MzM0","is_bot":false,"login":"lukewli","name":""},"headRefName":"Luke-JokeService","number":19,"title":"Add Joke Service and Tests","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/pull/19"}]
