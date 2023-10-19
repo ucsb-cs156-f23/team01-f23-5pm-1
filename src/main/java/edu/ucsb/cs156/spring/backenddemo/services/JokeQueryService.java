@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpMethod;
 import lombok.extern.slf4j.Slf4j;
 import java.util.List;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -16,6 +17,8 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 @Service
 public class JokeQueryService {
+
+    ObjectMapper mapper = new ObjectMapper();
 
     private final RestTemplate restTemplate;
 
@@ -33,7 +36,7 @@ public class JokeQueryService {
 
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
-        Map<String, String> uriVariables = Map.of("category", category, "numJokes", numJokes);
+        Map<String, String> uriVariables = Map.of("category", category, "numJokes", String.valueOf(numJokes));
         ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,
                 uriVariables);
         return re.getBody();
